@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .header{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  
+  .container {
+    width: 100%; /* Form takes full width of the container */
+    max-width: 600px; /* Maximum width of the form */
+    min-width: 450px; /* Minimum width of the form */
+    background-color: #fff; /* Ensure a white background */
+    padding: 20px;
+    border-radius: 8px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+  }
+  .btn-info{
+    width: 100px;
+    border-radius: 200px !important;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ffa41c;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* ------------------------------------------------Forms Section------------------------------------- */
+  .headersec{
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    flex-grow: 1;
+    text-align: center;
+    font-size: larger;
+  }
+  .heading1{
+    align-self: center;
+    font-size: 15px;
+  
+  }  
+  .heading2{
+    padding-right: 30px;
+    display: flex;
+    gap: 15px;
+    
+  }
+  .framescard-body{
+    height: 30vh;
+    width: 100vw;
+    
+    
+  
+  
+   
+  }
+  .framescard-body p{
+    font-size: 55px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .body1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-grow: 10;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+  
+  .circle1{
+    height: 185px;
+    width: 185px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+    
+  }
+  .arrow{
+    display: flex;
+    align-items: center;
+  
+    
+  }
+  .circle2{
+    height: 185px;
+    width: 185px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+  }
+  .circle3{
+    height: 185px;
+    width: 185px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+  }
+  span{
+    font-style: italic;
+  }
+  
+  
+  
+  .para{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.629);
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  
+  .size1{
+    max-width: 270px;
+    min-width: 100px;
+  }
+  .size1 img{
+    width: 100%;
+  }
+  .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .choosesize{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+  }
+  .framescard-title{
+    position:sticky;  
+    top: 0;        
+    left: 0;          
+    width: 100%; 
+  }
+  
+  .info1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+   
+    
+  }
+  
+  .popup-header{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    max-width:80vw;
+    min-width: 60vw;
+  }
+  .close-btn{
+    display: flex;
+    justify-content: end;
+  }
+  .btn{
+    height: 40px;
+    font-size: 15px;
+    
+  }
+  
+  .cart-container {
+    padding: 20px;
+  }
+  
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart-table th, .cart-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-info img {
+    max-width: 50px;
+    margin-right: 10px;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-control button {
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+  
+  .buy-btn, .delete-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .price{
+    font-weight: 800;
+  }
+  .para1{
+    font-size:x-large;
+  }
+
+  .footer{
+    margin-top: 50px;
+  }
+  
+  .auth-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+  }
+  
+  .auth-container .container {
+    width: 45%;
+  }
+  
+  @media (max-width: 768px) {
+    .auth-container {
+      flex-direction: column;
+    }
+  
+    .auth-container .container {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .auth-container {
+      flex-direction: column;
+    }
+  
+    .auth-container .container {
+      width: 100%;
+    }
+  }
+
+  .cart-icon {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .cart-icon .fa-cart-shopping {
+    font-size: 24px; /* Adjust size as needed */
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px; /* Adjust size as needed */
+    font-weight: bold;
+  }
+  
+  

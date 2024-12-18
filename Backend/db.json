@@ -1,0 +1,83 @@
+{
+  "FramesData": [
+    {
+      "id": 1,
+      "image1": "https://printo-s3.dietpixels.net/site/20230717_162928849561_51f1da_4-x-6-inches.jpg?quality=70&format=webp&w=384",
+      "heading1": "4 X 6 in",
+      "price": "370",
+      "para1": "Desktop stand only"
+    },
+    {
+      "id": 2,
+      "image1": "https://printo-s3.dietpixels.net/site/20230717_162931918590_9f62e3_6-x-8-inches.jpg?quality=70&format=webp&w=384",
+      "heading1": "6 X 8 in",
+      "price": "470",
+      "para1": "Desk & wall mount"
+    },
+    {
+      "id": 3,
+      "image1": "https://printo-s3.dietpixels.net/site/20230717_162934976453_972f13_A4.jpg?quality=70&format=webp&w=384",
+      "heading1": "A4",
+      "price": "570",
+      "para1": "Desk & wall mount"
+    },
+    {
+      "id": 4,
+      "image1": "https://printo-s3.dietpixels.net/site/20230717_162947697235_fcb8b2_9-x-12in.jpg?quality=70&format=webp&w=384",
+      "heading1": "9 X 12 in",
+      "price": "700",
+      "para1": "wall mount"
+    },
+    {
+      "id": 5,
+      "image1": "https://printo-s3.dietpixels.net/site/20230721_181117043897_b7292a_12-x-12in.jpg?quality=70&format=webp&w=384",
+      "heading1": "12 X 12 in",
+      "price": "900",
+      "para1": "wall mount"
+    },
+    {
+      "id": 6,
+      "image1": "https://printo-s3.dietpixels.net/site/20230721_173355160893_8f8929_12-x-18.jpg?quality=70&format=webp&w=384",
+      "heading1": "12 X 18 in",
+      "price": "1000",
+      "para1": "wall mount"
+    },
+    {
+      "id": 7,
+      "image1": "https://printo-s3.dietpixels.net/site/20230720_173352240017_a3f66f_14-x-18in.jpg?quality=70&format=webp&w=384",
+      "heading1": "14 X 18 in",
+      "price": "1170",
+      "para1": "wall mount"
+    },
+    {
+      "id": 8,
+      "image1": "https://printo-s3.dietpixels.net/site/20230720_173358249800_e5c783_18-x-24in.jpg?quality=70&format=webp&w=384",
+      "heading1": "18 X 24 in",
+      "price": "1370",
+      "para1": "wall mount"
+    },
+    {
+      "id": 9,
+      "image1": "https://printo-s3.dietpixels.net/site/20230720_173405906863_9aa4b9_27-x-36in.jpg?quality=70&format=webp&w=384",
+      "heading1": "27 X 36 in",
+      "price": "1470",
+      "para1": "wall mount"
+    }
+  ],
+  "AddToCart": [
+    {
+      "id": 1,
+      "image1": "https://printo-s3.dietpixels.net/site/20230717_162928849561_51f1da_4-x-6-inches.jpg?quality=70&format=webp&w=384",
+      "heading1": "4 X 6 in",
+      "price": "370",
+      "para1": "Desktop stand only"
+    },
+    {
+      "id": 2,
+      "image1": "https://printo-s3.dietpixels.net/site/20230717_162931918590_9f62e3_6-x-8-inches.jpg?quality=70&format=webp&w=384",
+      "heading1": "6 X 8 in",
+      "price": "470",
+      "para1": "Desk & wall mount"
+    }
+  ]
+}
